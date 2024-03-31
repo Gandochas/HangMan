@@ -157,9 +157,9 @@ fun main() {
     while (!gameOver(wrongGuesses, secretWord, guessedLetters)){
         //Построение изначальной картинки
         drawHangedMan(wrongGuesses)
-        //Показ? длины слова
+        //Демонстрация длины слова
         println("Your word is: $guessedWord")
-        //Показ? пробных букв
+        //Демонстрация пробных букв
         println("Current guessed letters: $guessedLetters")
 
         val playerGuess = getPlayerInput(guessedLetters)
